@@ -23,6 +23,8 @@ $SUDO apt-get install -y --no-install-recommends swig
 echo "Installing python libraries etc"
 $SUDO apt-get install -y --no-install-recommends  python-scipy python-docopt  python-numpy python-h5py python-matplotlib python-libxml2 python-psutil spyder python-tk
 
+echo "Installing misc packages"
+$SUDO apt-get install -y dmz-cursor-theme 
 
 # could do recent version of CMake
 # This would be necessary for the Superbuild
